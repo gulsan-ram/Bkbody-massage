@@ -1,12 +1,107 @@
-# React + Vite
+# BK Body Massage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**BK Body Massage** is a premium door-to-door massage service designed to provide clients with wellness and relaxation at the comfort of their home. This platform was developed as a client project, focusing on delivering a modern, responsive, and user-friendly experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Overview
 
-## Expanding the ESLint configuration
+* **Purpose**: To allow users to book professional massage services from certified therapists at their doorstep.
+* **Client Goal**: Enhance customer experience with easy navigation, responsive design, and quick service booking.
+* **Target Audience**: Health-conscious individuals seeking convenient wellness services at home.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Key Features
+
+* **Home Service Booking** – Schedule massages at preferred times and locations.
+* **Service Overview** – Explore various massage types and wellness therapies.
+* **Gallery Section** – Display images of services and therapy setups.
+* **Contact Options** – Direct communication via WhatsApp and contact form.
+* **Mobile-Responsive Design** – Optimized for all devices.
+* **SEO Optimized** – Better online visibility for the client’s business.
+
+---
+
+## Technologies Used
+
+* **Frontend**: React.js
+* **Styling**: Tailwind CSS
+* **Routing & Navigation**: React Router DOM
+* **Animation & Effects**: Framer Motion
+* **SEO**: React Helmet
+
+---
+
+## Project Structure
+
+```
+Bkbody-massage/
+├─ src/
+│  ├─ Components/      # Navbar, Footer, WhatsApp widget
+│  ├─ Pages/           # Home, About, Services, Gallery, Contact
+│  ├─ App.jsx          # Main app routing
+│  └─ main.jsx         # Entry point
+├─ public/             # Static assets
+├─ vite.config.js      # Project configuration
+└─ package.json
+```
+
+---
+
+## Installation & Usage
+
+1. **Clone the project**:
+
+```bash
+git clone https://github.com/gulsan-ram/Bkbody-massage.git
+```
+
+2. **Install dependencies**:
+
+```bash
+npm install
+```
+
+3. **Run the project locally**:
+
+```bash
+npm run dev
+```
+
+4. Open [http://localhost:5173](http://localhost:5173) to view the project.
+
+---
+
+## Deployment
+
+* The project can be deployed on **Netlify**, **Vercel**, or any static hosting platform.
+* Ensure to build the project before deployment:
+
+```bash
+npm run build
+```
+
+---
+
+## Client Benefits
+
+* Professional and easy-to-use platform for customer bookings.
+* Increased online visibility with SEO-friendly pages.
+* Fully responsive design for mobile and desktop users.
+* Smooth animations and interactive elements to enhance user experience.
+
+---
+
+## Contact
+
+For any questions or updates regarding this project:
+
+* Client: **[Balaram]**
+* Developer: **Gulsan Ram**
+* GitHub: [https://github.com/gulsan-ram](https://github.com/gulsan-ram)
+
+---
+
+**BK Body Massage – Bringing wellness to your doorstep.**
+
