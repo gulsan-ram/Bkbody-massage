@@ -9,7 +9,7 @@ export default function Gallery() {
     "/Images/5.jpg",
     "/Images/hotoil.jpg",
     "/Images/gallery1.png",
-    "/Images/gallery8.png",
+    "/Images/gallery8.png", 
   ];
   
   return (
