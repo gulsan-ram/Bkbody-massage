@@ -1,4 +1,11 @@
 @import "tailwindcss";
+
+:root {
+  --primary-color: #77B103;
+  --secondary-color: #88E8E5;
+  --accent-color: #0A9396;
+}
+
 @keyframes slideDown {
   from { opacity:0; transform: translateY(-10px); }
   to { opacity:1; transform: translateY(0); }

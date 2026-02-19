@@ -13,7 +13,7 @@ export default function Gallery() {
   ];
   
   return (
-    <div className="bg-gradient-to-b from-[#6FDCE3] to-white min-h-screen px-6 md:px-20 py-14">
+    <div className="bg-linear-to-b from-[#6FDCE3] to-white min-h-screen px-6 md:px-20 py-14">
       
       <h2 className="text-center text-4xl md:text-5xl font-bold text-[#003844] mt-12 mb-10">
         Our Gallery ✨
